@@ -1,0 +1,26 @@
+.planet-card {
+    width: 300px;
+    box-shadow: 4px 4px 2px 2px rgba(0,0,0,0.25);
+    border-radius: 5px;
+    position: relative;
+    
+}
+.planet-card:hover {
+    box-shadow: 8px 4px rgba(0,0,0,0.25);
+}
+
+.planet-container{
+    padding: 2px 16px;
+}
+
+img{
+    width: 300px;
+    border-radius: 5px;
+}
+h3{
+    position: absolute;
+    top: 0px; 
+    right: 10px;
+    color: rgb(34, 247, 229);
+    text-shadow: 2px 2px4px #000000;
+}
