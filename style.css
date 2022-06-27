@@ -1,4 +1,15 @@
+@font-face {
+    font-family: MrRobotio;
+    src: url(./fonts/Roboto/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: MrsMerienda;
+    src: url(./fonts/Merienda_One/MeriendaOne-Regular.ttf);
+}
+
 body {
+    font-family: MrsMerienda;
     background-color: aliceblue;
     padding: 20px;
     display: flex;
@@ -31,6 +42,7 @@ img{
     border-radius: 5px 5px 0 0 ;
 }
 h3{
+    font-family: MrRobotio;
     position: absolute;
     top: 0px; 
     right: 10px;
